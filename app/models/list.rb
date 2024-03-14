@@ -3,6 +3,7 @@ class List < ApplicationRecord
   
   validates :title, presence: true
   validates :body, presence: true
+  #rails cの練習時はimageをコメントアウトする
   validates :image, presence: true
   
 end
